@@ -1,26 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>Charles Cantin - Galerie</title>
-</head>
-<body>
-    <main>
-          <div class="toggle" onclick="toggleMenu();"></div>
+---
+layout: "base.njk"
+title: Charles Cantin - Galerie
+---
 
-  <div class="sidebar">
-    <ul class="menu">
-      <li><a href="/index" onclick="toggleMenu();">Acceuil</a></li>
-      <li><a href="/galerie" onclick="toggleMenu();">Galerie</a></li>
-      <li><a href="/service" onclick="toggleMenu();">Tarifs et Prestations</a></li>
-      <li><a href="/contact" onclick="toggleMenu();">Contact</a></li>
-    </ul>
-  </div>
-
-        
     <section class="work" id="work">
         <div class="title">
           <h2>Galerie</h2>
@@ -77,12 +59,3 @@
           </div>
         </div>
       </section>
-
-              <div class="copyright">
-        <p>Copyright © 2022 Charle CANTIN. All Right Reserved.</p>
-      </div>
-
-    </main>
-    <script src="/script.js"></script>
-</body>
-</html>
