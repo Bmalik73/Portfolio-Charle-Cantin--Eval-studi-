@@ -101,24 +101,8 @@ p
   margin: 20px 0;
   font-weight: 300;
 }
-h3
-{
-  font-size: 1.5em;
-  margin: 20px 0;
-  border: solid 2px black;
-}
-.btnDevis
-{
-  border: solid 2px black;
-  border-radius: 5px;
-  padding: 3px;
-  color: rgb(255, 255, 255);
-  background-color: #00bcd4;
-  text-decoration: none;
-  font-size: large;
-}
-.btnDevis:hover{color: rgb(0, 0, 0); background-color: #3c5ead;}
-.btn 
+
+.btn
 {
   background: #00bcd4;
   color: #fff;
